@@ -1,3 +1,403 @@
-body {
-    background-color: blue;
+* {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../assets/background-dark.jpg);
+}
+
+
+
+
+/* GRILLA PARA LA PAGINA DE PRODUCTOS */
+.grid-container-page-products {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+
+
+/* HEADER */
+header {
+    background-image: url(../assets/background-dark.jpg);
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    width: 70px;
+}
+
+.logo:hover, .imgsocialmedia:hover {
+    background-color: #ffffff13;
+    border-radius: 100%;
+}
+
+.nav-bar ul li {
+    padding-left: 20px;
+}
+
+.nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar ul li a:hover, .nav-footer div a:hover {
+    color: white;
+    background-color: #ffffff13;
+    border-radius: 30px;
+}
+
+.nav-bar {
+    justify-content: end;
+}
+
+.icon-menu-responsive {
+    width: 2.5em;
+}
+
+.container .container-home {
+    margin: 85px 0 65px 0;
+    align-items: center;
+}
+
+.title-h1-home {
+    font-weight: 800;
+    font-size: 3.8em;
+    color: #fba81a;
+}
+
+p {
+    font-size: 15px;
+}
+/* Todos los botones */
+.buttons, .buttonform {
+    background-color: #ffa200;
+    font-weight: 700;
+    font-size: 1em;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    border: 0;
+}
+.row .btn-mas-prod {
+    width: 180px;
+}
+
+.buttons:hover, .buttonform:hover {
+    background-color: #ff8800;
+}
+
+.container-imghome {
+    display: flex;
+    justify-content: end;
+}
+
+.imghome {
+    width: 400px;
+}
+
+
+
+
+/* MAIN */
+.titles {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.row-promo-home {
+    justify-content: center;
+}
+
+.row .items {
+    margin: 30px;
+    background-color: #1c0902;
+    border-radius: 20px;
+}
+
+.titles-promo, .titles-page-products {
+    height: 39px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.p-promo {
+    height: 85px;
+    font-size: 12px;
+}
+
+.price-promo, .price-products {
+    height: 32px;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.imgpromo {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container .us-home {
+    margin-top: 65px;
+    align-items: center;
+}
+
+.text-us-home {
+    width: 400px;
+}
+
+.img-us {
+    width: 500px;
+    border-radius: 30px;
+}
+
+.contact-subtitles {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+form input, form textarea {
+    background-color: #1c09028a;
+    margin-bottom: 10px;
+}
+
+form input:focus, form textarea:focus {
+    border: 3px solid #ffa200;
+}
+
+.contact-consulta form{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-consulta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 1;
+}
+
+.section-contact {
+    margin-top: 65px;
+}
+
+.items-page-products {
+    width: 285px;
+    margin: 30px;
+    background-color: #1c0902;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-page-products, .p-page-products {
+    width: 91%;
+    border-radius: 10px;
+}
+
+.p-page-products {
+    height: 85px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.main-page-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-items-page-products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imgpage-us {
+    background-image: url(../assets/about-us.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 73vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.title-page-us {
+    margin: 20px 20px 2px 0;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.textpage-us {
+    text-align: justify;
+}
+
+.row .container-p-page-us {
+    margin-top: 8px;
+}
+
+.main-page-us, .main-page-products, .main-page-promo {
+    margin-top: 65px;
+}
+
+
+
+
+/* FOOTER */
+.namecompany {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.imgsocialmedia {
+    width: 50px;
+}
+
+footer div div .a-redsocial {
+    text-decoration: none;
+}
+
+.nav-footer div a {
+    padding: 2px 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.imgcopyright {
+    width: 1em;
+}
+
+.container-copy {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-copy p, .container-copy img {
+    margin: 0 3px;
+}
+
+.container-footer {
+    margin-top: 65px;
+}
+
+
+
+
+/* Responsive Media Query Tablet */
+@media (max-width: 991px) {
+
+    .nav-bar ul li a {
+        font-size: 0.9em;
+    }
+
+    .nav-bar ul li {
+        padding-left: 7px;
+    }
+
+    section .container-imghome {
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .text-us-home {
+        display: flex;
+        order: 1;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .img-us-home {
+        display: flex;
+        justify-content: center;
+    }
+
+    .row-promo-home {
+        justify-content: space-evenly;
+    }
+
+    .row-promo-home .items {
+        margin: 22px;
+    }
+
+    .container .container-contact {
+        margin-top: 30px;
+    }
+
+    .row .contact-consulta {
+        margin-top: 15px;
+    }
+
+}
+
+
+
+
+/* Responsive Media Query Mobile */
+@media (max-width: 575px) {
+
+    .container .container-home {
+        margin: 10px 0 65px 0;
+    }
+
+    .title-h1-home {
+        font-size: 2.3em;
+    }
+
+    .imghome{
+        width: 292px;
+    }
+
+    .img-us {
+        width: 95%;
+    }
+
+    .title-us-home {
+        text-align: center;
+    }
+
+    .row .items {
+        width: 225px;
+    }
+
+    .contact-consulta form, iframe {
+        width: 286px;
+    }
+    
+    .row .imgpage-us {
+        width: 95vw;
+    }
+
+    .main-page-products, .main-page-promo, .main-page-us, .main-page-contact {
+        margin-top: 0;
+    }
+
 }
