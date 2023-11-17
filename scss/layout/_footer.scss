@@ -1,0 +1,57 @@
+footer {
+    margin-top: 65px;
+
+    div {
+        .namecompany {
+            font-weight: 700;
+            // USO DE MAP-GET
+            font-size: map-get($fontsize, tres);
+        }
+    }
+
+    div {
+        div {
+            .a-redsocial {
+                text-decoration: none;
+
+                .imgsocialmedia {
+                    width: 50px;
+                    // TRANSFORM TRANSITION
+                    transition-duration: 1s;
+
+                    &:hover {
+                        @include hover-focus(img);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.nav-footer {
+    div {
+        a {
+            padding: 2px 5px;
+            color: $color-font;
+            text-decoration: none;
+
+            &:hover {
+                @include hover-focus(nav);
+            }
+        }
+    }
+}
+
+.container-copy {
+    margin: 0;
+    @include flex(none, center, center, none);
+
+    .imgcopyright {
+        width: 1em;
+        margin: 0 3px;
+    }
+
+    p {
+        margin: 0 3px;
+    }
+}

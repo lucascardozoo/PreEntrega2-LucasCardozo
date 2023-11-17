@@ -1,0 +1,23 @@
+.imgpage-us {
+    background-image: url(../assets/about-us.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 73vh;
+    @include flex(none, flex-start, flex-end, none);
+
+    .title-page-us {
+        margin: 20px 20px 2px 0;
+        font-weight: 800;
+        font-size: 40px;
+    }
+}
+
+.row {
+    .container-p-page-us {
+        margin-top: 8px;
+
+        .textpage-us {
+            text-align: justify;
+        }
+    }
+}

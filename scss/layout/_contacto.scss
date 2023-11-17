@@ -1,0 +1,30 @@
+.sec-contact-home {
+    margin-top: 65px;
+}
+
+.contact-consulta {
+    @include flex(column, none, center, none);
+    order: 1;
+}
+
+.contact-subtitles {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+form {
+    width: 450px;
+    @include flex(column, none, none, none);
+
+    .input-form {
+        @include input-textarea-properties;
+
+        &:focus {
+            @include hover-focus(form);
+        }
+    }
+
+    textarea {
+        @extend .input-form;
+    }
+}

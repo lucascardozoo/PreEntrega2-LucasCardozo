@@ -1,0 +1,42 @@
+header {
+    background-image: url(../assets/background-dark.jpg);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    width: 70px;
+    transition-duration: 0.3s;
+
+    &:hover {
+        @include hover-focus(img);
+    }
+}
+
+.icon-menu-responsive {
+    width: 2.5em;
+}
+
+.nav-bar {
+    justify-content: end;
+
+    ul{         
+        li{
+            padding-left: 20px;
+
+            a {
+                color: $color-font;
+                text-decoration: none;
+
+                svg {
+                    margin: 0 2px 5px;
+                }
+
+                &:hover {
+                    @include hover-focus(nav);
+                }
+            }
+        }
+    } 
+}

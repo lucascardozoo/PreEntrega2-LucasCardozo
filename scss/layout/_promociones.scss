@@ -1,0 +1,35 @@
+.container {
+    .row-promo-home {
+        justify-content: center;
+
+        .items {
+            margin: 30px;
+            background-color: $color-box-items;
+            border-radius: 20px;
+            // TRANSFORM TRANSITION
+            transition-duration: 500ms;
+
+            &:hover {
+                @include hover-focus(shdw);
+            }
+
+            .imgpromo {
+                width: 100%;
+                border-radius: 10px;
+            }
+
+            .titles-promo {
+                @include titles-items;
+            }
+
+            .p-promo {
+                height: 85px;
+                font-size: 12px;
+            }
+
+            .price-promo{
+                @include price-items;
+            }
+        }
+    }
+}

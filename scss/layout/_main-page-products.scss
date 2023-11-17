@@ -1,0 +1,41 @@
+.main-page-products {
+    @include flex(column, none, center, none);
+
+    .container-items-page-products {
+        @include flex(none, center, none, wrap);
+
+        .items-page-products {
+            width: 285px;
+            margin: 30px;
+            background-color: $color-box-items;
+            border-radius: 20px;
+            @include flex(column, none, center, none);
+            // TRANSFORM TRANSITION
+            transition-duration: 500ms;
+
+            &:hover {
+                @include hover-focus(shdw);
+            }
+
+            .img-page-products {
+                width: 91%;
+                border-radius: 10px;
+            }
+
+            .titles-page-products {
+                @include titles-items;
+            }
+
+            .p-page-products {
+                width: 91%;
+                height: 85px;
+                font-size: 12px;
+                text-align: center;
+            }
+
+            .price-products {
+                @include price-items;
+            }
+        }
+    }
+}

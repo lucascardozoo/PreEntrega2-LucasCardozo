@@ -1,0 +1,23 @@
+.buttons {
+    background-color: #ffa200;
+    font-weight: 700;
+    font-size: 1em;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    border: 0;
+
+    &:hover {
+        background-color: $color-hover-button;
+    }
+}
+
+.buttonform {
+    @extend .buttons;
+}
+
+.row {
+    
+    .btn-mas-prod{
+        width: 180px;
+    }
+}

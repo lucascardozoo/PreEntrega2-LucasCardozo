@@ -4,13 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- CSS -->
-        <link rel="stylesheet" href="../style/style.css">
+        <link rel="stylesheet" href="../css/style.css">
         <!-- Tipografía de Google -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
         <!-- CDN Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- CDN AOS Animation CSS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <title>Pagina de Inicio</title>
     </head>
 <body>
@@ -28,7 +30,11 @@
                     <div class="collapse navbar-collapse nav-bar" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="../index.html">Home</a>
+                                <a class="nav-link" href="../index.html">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                                        <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>
+                                    </svg>Home
+                                </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./productos.html">Productos</a>
@@ -51,66 +57,75 @@
         <main>
             <section class="main-page-products">
                 <div>
-                    <h2 class="titles">Productos</h2>
+                    <h1 class="titles">Productos</h1>
                 </div>
                 <div class="container-items-page-products">
-                    <article class="items-page-products">
+                    <!-- AOS Amination -->
+                    <article class="items-page-products" data-aos="zoom-out-up">
                         <img class="img-page-products" src="../assets/item1.jpg" alt="Hamburguesa Clásica">
                         <h2 class="titles-page-products">Hamburguesa Clásica</h2>
                         <p class="p-page-products">Nuestra icónica hamburguesa a la parrilla, hecha con carne jugosa, lechuga fresca, tomate maduro, cebolla y nuestra deliciosa salsa secreta, todo en un suave pan recién horneado.</p>
                         <p class="price-products">$200</p>
                         <button class="buttons">Comprar</button>
                     </article>
-                    <article class="items-page-products">
+                    <!-- AOS Amination -->
+                    <article class="items-page-products" data-aos="zoom-out-up">
                         <img class="img-page-products" src="../assets/item2.jpg" alt="Hamburguesa Vegetariana">
                         <h2 class="titles-page-products">Hamburguesa Vegana</h2>
                         <p class="p-page-products">Nuestra hamburguesa vegetariana está hecha con una patty de garbanzos y quinua, lechuga, tomate, cebolla y nuestra salsa especial de yogur.</p>
                         <p class="price-products">$220</p>
                         <button class="buttons">Comprar</button>
                     </article>
-                    <article class="items-page-products">
+                    <!-- AOS Amination -->
+                    <article class="items-page-products" data-aos="zoom-out-up">
                         <img class="img-page-products" src="../assets/item3.png" alt="Combo Familiar">
                         <h2 class="titles-page-products">Combo Familiar</h2>
                         <p class="p-page-products">La solución perfecta para una comida en familia. Incluye dos hamburguesas clásicas, dos porciones de papas fritas y cuatro bebidas refrescantes.</p>
                         <p class="price-products">$800</p>
                         <button class="buttons">Comprar</button>
                     </article>
-                    <article class="items-page-products">
+                    <!-- AOS Amination -->
+                    <article class="items-page-products" data-aos="zoom-out-up">
                         <img class="img-page-products" src="../assets/bebidas.jpg" alt="Refresco Pequeño">
                         <h2 class="titles-page-products">Refresco Pequeño</h2>
                         <p class="p-page-products">Refresca tu sed con un refresco clásico en tamaño pequeño. Perfecto para acompañar tu comida.</p>
                         <p class="price-products">$30</p>
                         <button class="buttons">Comprar</button>
                     </article>
-                    <article class="items-page-products">
+                    <!-- AOS Amination -->
+                    <article class="items-page-products" data-aos="zoom-out-up">
                         <img class="img-page-products" src="../assets/bebidas.jpg" alt="Refresco Mediano">
                         <h2 class="titles-page-products">Refresco Mediano</h2>
                         <p class="p-page-products">Nuestra opción más popular, un refresco mediano, ideal para saciar tu sed.</p>
                         <p class="price-products">$40</p>
                         <button class="buttons">Comprar</button>
                     </article>
-                    <article class="items-page-products">
+                    <!-- AOS Amination -->
+                    <article class="items-page-products" data-aos="zoom-out-up">
                         <img class="img-page-products" src="../assets/bebidas.jpg" alt="Refresco Grande">
                         <h2 class="titles-page-products">Refresco Grande</h2>
                         <p class="p-page-products">Para los que realmente tienen sed, disfruta de un refresco grande para acompañar tu comida.</p>
                         <p class="price-products">$50</p>
                         <button class="buttons">Comprar</button>
                     </article>
-                    <article class="items-page-products">
+                    <!-- AOS Amination -->
+                    <article class="items-page-products" data-aos="zoom-out-up">
                         <img class="img-page-products" src="../assets/papas-fritas.jpg" alt="Papas Pequeñas">
                         <h2 class="titles-page-products">Papas Pequeñas</h2>
                         <p class="p-page-products">Papas fritas en tamaño pequeño, perfectas para un tentempié ligero o como complemento.</p>
                         <p class="price-products">$50</p>
                         <button class="buttons">Comprar</button>
                     </article>
-                    <article class="items-page-products">
+                    <!-- AOS Amination -->
+                    <article class="items-page-products" data-aos="zoom-out-up">
                         <img class="img-page-products" src="../assets/papas-fritas.jpg" alt="Papas Medianas">
                         <h2 class="titles-page-products">Papas Medianas</h2>
                         <p class="p-page-products">Papas fritas en tamaño mediano, ideales para satisfacer el hambre de tamaño regular.</p>
                         <p class="price-products">$70</p>
                         <button class="buttons">Comprar</button>
                     </article>
-                    <article class="items-page-products">
+                    <!-- AOS Amination -->
+                    <article class="items-page-products" data-aos="zoom-out-up">
                         <img class="img-page-products" src="../assets/papas-fritas.jpg" alt="Papas Familiares">
                         <h2 class="titles-page-products">Papas Familiares</h2>
                         <p class="p-page-products">Nuestra opción más grande de papas fritas, perfecta para compartir con amigos o la familia.</p>
@@ -121,7 +136,7 @@
             </section>
         </main>
 
-        <footer class="container text-center container-footer">
+        <footer class="container text-center">
             <div class="row">
                 <h2 class="col-xs-12 col-sm-12 col-lg namecompany">Burger</h2>
             </div>
@@ -153,7 +168,8 @@
             <div class="row justify-content-center">
                 <div class="col-xs-12 col-sm-12 col-lg container-copy">
                     <img class="imgcopyright" src="../assets/copyright.png" alt="Logo de Copyright">
-                    <p>Copyright</p>
+                    <!-- USO DE UNA CLASE CREADA CON EACH -->
+                    <p class="color-oro">Copyright</p>
                 </div>
             </div>
         </footer>
@@ -161,6 +177,12 @@
 
     <!-- CDN Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- CDN AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     
 </body>
 </html>
