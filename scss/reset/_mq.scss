@@ -28,10 +28,15 @@
         }
     }
 
-    .text-us-home {
-        order: 1;
-        text-align: justify;
-        @include flex(column, none, center, none);
+    .container {
+        .us-home {
+            .text-us-home {
+                order: 1;
+                width: 100%;
+                text-align: justify;
+                @include flex(column, none, center, none);
+            }
+        }
     }
 
     .img-us-home {

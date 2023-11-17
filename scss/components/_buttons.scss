@@ -11,12 +11,12 @@
     }
 }
 
+// Uso de Extend
 .buttonform {
     @extend .buttons;
 }
 
 .row {
-    
     .btn-mas-prod{
         width: 180px;
     }

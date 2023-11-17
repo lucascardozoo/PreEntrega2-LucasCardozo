@@ -371,8 +371,9 @@ footer div div .a-redsocial .imgsocialmedia:hover {
   .row-promo-home .items {
     margin: 22px;
   }
-  .text-us-home {
+  .container .us-home .text-us-home {
     order: 1;
+    width: 100%;
     text-align: justify;
     display: flex;
     flex-direction: column;
