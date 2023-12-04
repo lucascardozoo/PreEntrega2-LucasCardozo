@@ -65,7 +65,7 @@ footer {
   }
 }
 .buttons, .buttonform {
-  background-color: #ffa200;
+  background-color: #ff9600;
   font-weight: 700;
   font-size: 1em;
   padding: 5px 15px 5px 15px;
@@ -73,7 +73,7 @@ footer {
   border: 0;
 }
 .buttons:hover, .buttonform:hover {
-  background-color: #ff8800;
+  background-color: #ff7f00;
 }
 
 .row .btn-mas-prod {
