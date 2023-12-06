@@ -3,6 +3,7 @@
     background-size: cover;
     background-position: top;
     height: 73vh;
+    border-radius: 20px;
     @include flex(none, flex-start, flex-end, none);
 
     .title-page-us {
@@ -14,7 +15,7 @@
 
 .row {
     .container-p-page-us {
-        margin-top: 8px;
+        margin-top: 32px;
 
         .textpage-us {
             text-align: justify;

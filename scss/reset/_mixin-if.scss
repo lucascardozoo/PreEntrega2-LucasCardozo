@@ -47,5 +47,7 @@
 
 @mixin input-textarea-properties {
     background-color: $color-bg-input-textarea;
+    border: 1px solid $color-font;
+    border-radius: 7px;
     margin-bottom: 10px;
 }

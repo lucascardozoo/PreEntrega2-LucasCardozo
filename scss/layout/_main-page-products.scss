@@ -36,6 +36,10 @@
             .price-products {
                 @include price-items;
             }
+
+            .buttons {
+                margin-bottom: 16px;
+            }
         }
     }
 }

@@ -184,6 +184,9 @@ header {
   font-size: 2em;
   font-weight: 800;
 }
+.container .row-promo-home .items .buttons, .container .row-promo-home .items .buttonform {
+  margin-bottom: 16px;
+}
 
 .container .us-home {
   margin-top: 65px;
@@ -216,6 +219,10 @@ header {
   font-size: 25px;
 }
 
+iframe {
+  border-radius: 20px;
+}
+
 form {
   width: 450px;
   display: flex;
@@ -226,6 +233,8 @@ form {
 }
 form .input-form, form textarea {
   background-color: rgba(28, 9, 2, 0.5411764706);
+  border: 1px solid #ffffff;
+  border-radius: 7px;
   margin-bottom: 10px;
 }
 form .input-form:focus, form textarea:focus {
@@ -329,12 +338,16 @@ footer div div .a-redsocial .imgsocialmedia:hover {
   font-size: 2em;
   font-weight: 800;
 }
+.main-page-products .container-items-page-products .items-page-products .buttons, .main-page-products .container-items-page-products .items-page-products .buttonform {
+  margin-bottom: 16px;
+}
 
 .imgpage-us {
   background-image: url(../assets/about-us.jpg);
   background-size: cover;
   background-position: top;
   height: 73vh;
+  border-radius: 20px;
   display: flex;
   flex-direction: none;
   justify-content: flex-start;
@@ -348,7 +361,7 @@ footer div div .a-redsocial .imgsocialmedia:hover {
 }
 
 .row .container-p-page-us {
-  margin-top: 8px;
+  margin-top: 32px;
 }
 .row .container-p-page-us .textpage-us {
   text-align: justify;

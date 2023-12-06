@@ -12,6 +12,10 @@
     font-size: 25px;
 }
 
+iframe {
+    border-radius: 20px;
+}
+
 form {
     width: 450px;
     @include flex(column, none, none, none);

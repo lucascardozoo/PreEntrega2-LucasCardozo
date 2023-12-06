@@ -30,6 +30,10 @@
             .price-promo{
                 @include price-items;
             }
+
+            .buttons {
+                margin-bottom: 16px;
+            }
         }
     }
 }
