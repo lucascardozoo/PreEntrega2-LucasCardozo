@@ -1,4 +1,4 @@
-# Proyecto Final · Desarrollo Web
+# Proyecto Desarrollo Web
 ## Lucas Cardozo
 
 # Bienvenido a Burger - Tienda en línea
